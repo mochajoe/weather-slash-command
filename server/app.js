@@ -11,6 +11,8 @@ const corsOptions = {
   credentials: true
 };
 
+const pineapple = [];
+
 const app = express();
 app.disable('x-powered-by');
 // Render static assets route
